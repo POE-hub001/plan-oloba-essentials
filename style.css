@@ -1,0 +1,123 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#1d0033,#3d0066,#ff1493);
+color:white;
+line-height:1.6;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(0,0,0,.4);
+backdrop-filter:blur(10px);
+position:sticky;
+top:0;
+}
+
+.logo h1{
+font-size:30px;
+color:#ff66cc;
+}
+
+.logo span{
+letter-spacing:5px;
+color:#ffffff;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#ff66cc;
+}
+
+.whatsapp-btn{
+background:#25D366;
+padding:12px 20px;
+border-radius:30px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+min-height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px;
+}
+
+.hero h2{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.shop-btn{
+display:inline-block;
+background:#ff1493;
+padding:15px 35px;
+border-radius:40px;
+text-decoration:none;
+color:white;
+font-size:18px;
+font-weight:bold;
+}
+
+.categories{
+padding:80px 8%;
+}
+
+.categories h2{
+text-align:center;
+margin-bottom:40px;
+font-size:40px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:rgba(255,255,255,.08);
+padding:30px;
+border-radius:20px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:#ff1493;
+}
+
+.about,.contact{
+padding:80px 8%;
+text-align:center;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#120020;
+  }
