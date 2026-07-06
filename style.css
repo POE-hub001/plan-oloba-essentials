@@ -280,3 +280,47 @@ nav{
     color:#ff2ea6;
     font-weight:bold;
     }
+.shop{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.shop h2{
+    font-size:2.5rem;
+    color:#ff2ea6;
+    margin-bottom:50px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    background:#241038;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:20px 0 10px;
+}
+
+.card p{
+    padding:0 20px 25px;
+    color:#ccc;
+}
