@@ -352,3 +352,52 @@ nav{
     transform:translateY(-8px);
     background:rgba(255,79,184,.15);
     }
+/* FOOTER */
+
+footer{
+    background:#0d0018;
+    padding:60px 8% 30px;
+    text-align:center;
+    margin-top:80px;
+}
+
+.footer-logo h2{
+    color:#ff2ea6;
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+.footer-logo p{
+    color:#bbb;
+    margin-bottom:30px;
+}
+
+.footer-links{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    margin-bottom:30px;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#ff2ea6;
+}
+
+.footer-contact{
+    color:#bbb;
+    line-height:2;
+    margin-bottom:25px;
+}
+
+.copyright{
+    color:#777;
+    border-top:1px solid rgba(255,255,255,.1);
+    padding-top:20px;
+}
